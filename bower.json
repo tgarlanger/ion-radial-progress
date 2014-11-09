@@ -1,0 +1,27 @@
+{
+  "name": "ion-radial-progress",
+  "version": "0.0.0",
+  "homepage": "https://github.com/tgarlanger/ion-radial-progress",
+  "authors": [
+    "Tony Garlanger <tony@ag9software.com>"
+  ],
+  "description": "Radial progress bar for ionic",
+  "keywords": [
+    "ionic",
+    "progress",
+    "bar",
+    "angular",
+    "ui"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angularjs": "~1.3.2"
+  }
+}
