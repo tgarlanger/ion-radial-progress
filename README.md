@@ -13,3 +13,5 @@ Usage:
 ```
 
 Where **timer** is the length of the timer
+
+Please, please, please feel free to clean up code, file bugs, improve, provide pull requests, etc.!
