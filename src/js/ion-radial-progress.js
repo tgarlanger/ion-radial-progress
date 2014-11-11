@@ -10,7 +10,13 @@
         transclue: true,
         replace: true,
         scope: {
-          timer: '='
+          timer: '=',
+          color: '=?',
+          backgroundColor: '=?'
+        },
+        link: function (scope) {
+          scope.color = scope.color || "#000000";
+          scope.backgroundColor = scope.backgroundColor || "white";
         },
         controller: function ($scope) {
           $scope.seconds = $scope.timer;
