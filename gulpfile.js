@@ -9,6 +9,7 @@ var gulpIgnore = require('gulp-ignore');
 var ngAnnotate = require('gulp-ng-annotate');
 var sass = require('gulp-sass');
 var karma = require('gulp-karma');
+var watch = require('gulp-watch');
 
 var paths = [
   './src/js/*.*',
@@ -84,3 +85,11 @@ gulp.task('test', function () {
 gulp.task('build', ['clean', 'copy', 'uglifyJS']);
 
 gulp.task('default', ['build']);
+
+gulp.task('watch', function () {
+  gulp.watch([
+    'src/js/*.js',
+    'src/scss/*.scss',
+    'src/templates/*.html'
+  ], ['build']);
+});
